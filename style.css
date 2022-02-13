@@ -1,0 +1,129 @@
+body{
+	color: #FA4659;
+	background: #FBFADF;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+	font size: 20px;
+	letter-spacing: 1.5px;
+	font-weight: normal;
+}
+
+h1{
+	font-family: bookman old style;
+	font-weight: bold;	
+	color: #FF008B;
+	font size: 35px;
+}
+
+h2, h3, h4{
+	color: rgba(10, 110, 110, 1.0);
+}
+
+h3, h4{
+	font-family: 'Comfortaa', cursive;
+}
+
+h2{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 20px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+p{
+	color: #40BFC1;
+	font-weight: 500;
+	font-family: 'Comfortaa', cursive;
+}
+
+a{
+	text-decoration: none;
+	color: #FF008B;
+	font-family: bookman old style;
+}
+
+a:hover{
+	color: #FFF338;
+}
+
+img {
+ 	max-width: 50%;
+ 	max-height: 50%;
+ }
+
+ #photo{
+ 	width: 220px;
+ }
+
+
+/* Custom dessign with class */
+
+.container{
+width: 700px;
+margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(200, 50, 10, 0.4);
+	border-radius: 4px;
+	margin: 20px 5px;
+	text-align: center;
+}
+
+.img-square{
+	border-radius: 10px;
+}
+
+.btn-pink{
+background-color: #FF008B;
+color: white;
+padding: 7px 11px;
+border-radius: 7px;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+}
+
+.list-inline i:hover {
+	font-size: 40px;
+	color: #12CAD6;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 750px){
+	.container{
+		width: 600px;
+	}
+}
+
+
+
+
